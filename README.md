@@ -27,4 +27,5 @@ In this repository, you'll find exercise scripts, notes, and examples covering k
 ## Folder Structure
 
 To keep everything organized, the repo is divided into folders that represent each core topic:
+- [SELECT Statements](SQL_learning/select_statements.sql)
 
