@@ -17,6 +17,7 @@ In this repository, you'll find exercise scripts, notes, and examples covering k
   - `<=` (Less than or equal to)
   - `>=` (Greater than or equal to)
 - **Logical Operations:** Implementing `AND`, `OR`, and `NOT` in your queries.
+- **IN Operator**: Checking if a value matches any value in a list.
 
 ## Tools
 
