@@ -1,0 +1,32 @@
+# 🧠 SQL Notes: Learning the `WHERE` Clause
+
+The `WHERE` clause is used to **filter records** based on specific conditions. It returns only the rows that meet the condition(s) you specify.
+
+---
+
+## ✅ Basic Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+
+-- 1️⃣ Customers who spent more than $3000
+SELECT *
+FROM customers
+WHERE total_money_spent > 3000;
+
+-- 2️⃣ Customers from the city of Scranton
+SELECT *
+FROM customers
+WHERE city = 'Scranton';
+
+-- 3️⃣ Customers born after January 1, 1985
+SELECT *
+FROM customers
+WHERE birth_date > '1985-01-01';
+
+-- 4️⃣ Products with fewer than 30 units in stock
+SELECT *
+FROM products
+WHERE units_in_stock < 30;
