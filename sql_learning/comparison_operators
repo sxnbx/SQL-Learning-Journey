@@ -1,0 +1,58 @@
+# SQL Comparison Operators
+
+Comparison operators are used in the `WHERE` clause to filter rows based on specific conditions. These help narrow down query results by comparing values in your table.
+
+---
+
+## 📌 Common Operators & Their Use
+
+| Operator   | Meaning                      | Example            |
+|------------|------------------------------|--------------------|
+| `=`        | Equal to                     | `tip = 1`          |
+| `<>`       | Not equal to (Standard SQL)  | `tip <> 1`         |
+| `!=`       | Not equal to (MySQL)         | `tip != 1`         |
+| `>`        | Greater than (exclusive)     | `tip > 5`          |
+| `>=`       | Greater than or equal to     | `tip >= 5`         |
+| `<`        | Less than (exclusive)        | `tip < 5`          |
+| `<=`       | Less than or equal to        | `tip <= 5`         |
+
+> 📝 Tip: Both `<>` and `!=` mean "not equal to" in MySQL.
+
+---
+
+## 🧪 Sample Queries
+
+```sql
+-- ✅ Equal to
+SELECT *
+FROM bakery.customer_orders
+WHERE tip = 1;
+
+-- ❌ Not equal to (two options)
+SELECT *
+FROM bakery.customer_orders
+WHERE tip <> 1;
+
+SELECT *
+FROM bakery.customer_orders
+WHERE tip != 1;
+
+-- 🔼 Greater than (exclusive)
+SELECT *
+FROM bakery.customer_orders
+WHERE tip > 5;
+
+-- 🔼 Greater than or equal to (inclusive)
+SELECT *
+FROM bakery.customer_orders
+WHERE tip >= 5;
+
+-- 🔽 Less than (exclusive)
+SELECT *
+FROM bakery.customer_orders
+WHERE tip < 5;
+
+-- 🔽 Less than or equal to (inclusive)
+SELECT *
+FROM bakery.customer_orders
+WHERE tip <= 5;
