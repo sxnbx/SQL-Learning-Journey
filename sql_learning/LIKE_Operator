@@ -1,0 +1,100 @@
+# 🔍 SQL `LIKE` Operator – Pattern Matching Notes
+
+Whether you're searching for names that start with a certain letter or finding phone numbers with specific digits, `LIKE` makes it super flexible.
+
+---
+
+## 🧠 What is the `LIKE` operator?
+
+The `LIKE` operator is used in the `WHERE` clause to **search for a specified pattern** in a column. It’s especially handy for text-based filtering.
+
+---
+
+## 🧩 Wildcards
+
+| Symbol | Meaning                                      |
+|--------|----------------------------------------------|
+| `%`    | Zero, one, or many characters                |
+| `_`    | Exactly one character                        |
+
+---
+
+## ✨ Examples
+
+### 🅰️ Starts With...
+
+```sql
+SELECT *
+FROM customers
+WHERE first_name LIKE 'K%';
+
+Finds names that start with K (like Kevin, Kara, Kelly).
+Not case-sensitive in most systems.
+
+### 🔚 Ends With...
+SELECT *
+FROM customers
+WHERE first_name LIKE '%n';
+- Finds names that end in n (like John, Megan, Anakin).
+
+### Contains...
+SELECT *
+FROM customers
+WHERE first_name LIKE '%n%';
+- Finds names that contain n anywhere (like Kevin, Luna, Anakin).
+
+### Exact Position Matching
+-- One character before 'n'
+SELECT *
+FROM customers
+WHERE first_name LIKE '_n';
+
+-- Two characters before 'n'
+SELECT *
+FROM customers
+WHERE first_name LIKE '__n';
+
+-- A pattern with a letter in the middle
+SELECT *
+FROM customers
+WHERE first_name LIKE '_o_';
+
+-- Looking for something like "Anakin"
+SELECT *
+FROM customers
+WHERE first_name LIKE '___kin';
+
+
+### Combining % and _
+-- Last names starting with 's' and followed by exactly 4 characters (like Smith, Stone)
+SELECT *
+FROM customers
+WHERE last_name LIKE 's____%';
+
+-- Phone numbers that start with '975-'
+SELECT *
+FROM customers
+WHERE phone LIKE '975-%';
+
+### Sample Output (Mock Data)
+Let’s say our customers table has:
+
+| customer\_id | first\_name | last\_name | phone        |
+| ------------ | ----------- | ---------- | ------------ |
+| 1            | Kevin       | Smith      | 975-555-1234 |
+| 2            | Luna        | Lovegood   | 804-111-2222 |
+| 3            | Anakin      | Skywalker  | 975-999-0000 |
+| 4            | John        | Snow       | 703-456-7890 |
+| 5            | Frodo       | Baggins    | 312-321-5432 |
+
+Query:
+SELECT *
+FROM customers
+WHERE first_name LIKE '%n';
+
+Result:
+| customer\_id | first\_name | last\_name | phone        |
+| ------------ | ----------- | ---------- | ------------ |
+| 1            | Kevin       | Smith      | 975-555-1234 |
+| 3            | Anakin      | Skywalker  | 975-999-0000 |
+| 4            | John        | Snow       | 703-456-7890 |
