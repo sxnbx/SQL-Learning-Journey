@@ -1,0 +1,26 @@
+## SQL: LIMIT Clause
+
+The `LIMIT` clause is used to restrict the number of rows returned by a query.
+
+### Examples:
+
+```sql
+-- Return any 5 customers who spent more than 10,000 (order is not guaranteed)
+SELECT *
+FROM customers
+WHERE total_money_spent > 10000
+LIMIT 5;
+
+-- Return the top 5 customers who spent the most money
+SELECT *
+FROM customers
+ORDER BY total_money_spent DESC
+LIMIT 5;  -- LIMIT always goes at the end
+
+-- Return 2 customers starting from the 6th row (offset 5)
+SELECT *
+FROM customers
+ORDER BY total_money_spent DESC
+LIMIT 5, 2;
+-- First number: offset (start at row 6, since offset is zero-based)
+-- Second number: number of rows to return
