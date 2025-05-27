@@ -1,0 +1,82 @@
+# 📌 SQL `BETWEEN` Operator – Study Notes
+
+This will cover the `BETWEEN` operator in SQL, which is super helpful when you want to filter values within a range without having to write long `>= AND =` conditions.
+
+---
+
+## 🧠 What is the `BETWEEN` operator?
+
+The `BETWEEN` operator selects values **within a given range**, and yes—it includes the boundary values.
+
+### ✅ Regular Way vs `BETWEEN`
+```sql
+-- Long way
+SELECT *
+FROM customers
+WHERE total_money_spent >= 500 AND total_money_spent <= 1000;
+
+-- Cleaner way
+SELECT *
+FROM customers
+WHERE total_money_spent BETWEEN 500 AND 1000;
+
+Note: The BETWEEN version is inclusive, meaning it includes both 500 and 1000
+
+### ⚠️ Order Matters!
+When using BETWEEN, the lower value must come first, just like how AND works. If you flip the range, your query won’t return the correct results (or may return none at all).
+
+-- This works
+SELECT *
+FROM customers
+WHERE total_money_spent BETWEEN 500 AND 1000;
+
+-- This does NOT work as expected
+SELECT *
+FROM customers
+WHERE total_money_spent BETWEEN 1000 AND 500;
+
+### Date Example with BETWEEN
+You can also use BETWEEN with dates!
+
+SELECT *
+FROM customers
+WHERE birth_date BETWEEN '1990-01-01' AND '2020-01-01';
+
+This returns all customers born between January 1, 1990, and January 1, 2020, including both dates.
+
+### Alphabetical Ranges
+You can even use BETWEEN with text (like cities), but it only looks at alphabetical order (starting characters).
+
+SELECT *
+FROM customers
+WHERE city BETWEEN 'D' AND 'S';
+
+This returns cities that start with letters between D and S. So:
+'Dallas' ✅
+'Richmond' ✅
+'Seattle' ✅
+'Sacramento' ✅
+'San Diego' ✅
+'SCville' ❌ (This actually comes after 'S' alphabetically!)
+⚠️ Weird edge case: BETWEEN 'D' AND 'S' might not include values that start with something like 'SC' because 'SC' > 'S'.
+
+### Sample Output (Mock Data)
+Let’s pretend our customers table looks like this:
+| customer\_id | first\_name | total\_money\_spent | birth\_date | city      |
+| ------------ | ----------- | ------------------- | ----------- | --------- |
+| 1            | Kevin       | 850                 | 1995-05-21  | Dallas    |
+| 2            | Kelly       | 1200                | 1989-11-30  | Seattle   |
+| 3            | Frodo       | 500                 | 2001-01-01  | San Diego |
+| 4            | Luna        | 750                 | 2005-09-12  | Richmond  |
+| 5            | Sam         | 300                 | 1993-06-17  | Boston    |
+
+### Query Example:
+SELECT *
+FROM customers
+WHERE total_money_spent BETWEEN 500 AND 1000;
+
+| customer\_id | first\_name | total\_money\_spent | birth\_date | city      |
+| ------------ | ----------- | ------------------- | ----------- | --------- |
+| 1            | Kevin       | 850                 | 1995-05-21  | Dallas    |
+| 3            | Frodo       | 500                 | 2001-01-01  | San Diego |
+| 4            | Luna        | 750                 | 2005-09-12  | Richmond  |
