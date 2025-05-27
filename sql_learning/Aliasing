@@ -1,0 +1,18 @@
+## SQL: Aliasing
+
+Aliasing lets you change the **name of columns in the query output** without modifying the actual table structure.
+
+### Examples:
+
+```sql
+-- Rename columns in the output
+SELECT product_name AS 'Goodie Name', units_in_stock AS 'uis'
+FROM products;
+
+-- Create a new column by calculating potential revenue and give it an alias
+SELECT units_in_stock * sale_price AS Potential_Revenue
+FROM products;
+
+-- Use table alias to shorten table name and calculate potential revenue
+SELECT p.units_in_stock * p.sale_price AS Potential_Revenue
+FROM products p;
