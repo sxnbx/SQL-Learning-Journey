@@ -2,12 +2,16 @@
 
 Hi, I'm Anna, and welcome to my MySQL SQL Learning Journey! This repository is where I document my progress as I build my foundation in SQL. Whether you're a beginner or looking to brush up on SQL essentials, I hope you find these resources helpful.
 
-## Repository Overview
 
-In this repository, you'll find exercise scripts, notes, and examples covering key SQL concepts including:
+## 🧾 Repository Overview
+
+This repository is organized into core SQL topics, each containing practical scripts and examples.
+
+### 📌 Querying Basics
+
 - **[SELECT Statements](sql_learning/select_statements.sql):** How to retrieve data from tables.
 - **[WHERE Clause](sql_learning/WHERE_clause):** Filtering records based on specific conditions.
-- **[Comparison Operators](sql_learning/comparison_operators):** Using operators such as:
+- **[Comparison Operators](sql_learning/comparison_operators):**
   - `=` (Equals)
   - `<>` (Not equal)
   - `<` (Less than)
@@ -16,8 +20,17 @@ In this repository, you'll find exercise scripts, notes, and examples covering k
   - `!>` (Not greater than) *(if applicable)*
   - `<=` (Less than or equal to)
   - `>=` (Greater than or equal to)
-- **[Logical Operations](sql_learning/logical_operators):** Implementing `AND`, `OR`, and `NOT` in your queries.
-- **IN Operator**: Checking if a value matches any value in a list.
+- **[Logical Operations](sql_learning/logical_operators):** Using `AND`, `OR`, and `NOT` in queries.
+- **[IN Operator](sql_learning/in_operator):** Checking if a value matches any value in a list.
+
+### 📌 Data Types and Functions *(coming soon)*
+
+- Data types: INT, VARCHAR, DATE, etc.
+- Type conversions
+- String functions: `CONCAT()`, `SUBSTRING()`, `LENGTH()`
+- Numeric functions: `ROUND()`, `FLOOR()`, `CEIL()`
+- Date functions: `NOW()`, `DATEDIFF()`, `DATE_FORMAT()`
+
 
 ## Tools and Practices
 -  Tool: MySQL  
