@@ -9,7 +9,7 @@ This repository is organized into core SQL topics, each containing practical scr
 
 ### 📌 Querying Basics
 
-- **[SELECT Statements](sql_learning/select_statements.sql):** How to retrieve data from tables.
+- **[SELECT Statements](https://github.com/sxnbx/SQL-Learning-Journey/blob/6d823cf69fb986b5c46e2970948ea58428960e43/sql_learning/Querying%20Basics/select_statements.sql):** How to retrieve data from tables.
 - **[WHERE Clause](sql_learning/WHERE_clause):** Filtering records based on specific conditions.
 - **[Comparison Operators](sql_learning/comparison_operators):**
   - `=` (Equals)
