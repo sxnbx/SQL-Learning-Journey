@@ -21,4 +21,4 @@ In this repository, you'll find exercise scripts, notes, and examples covering k
 
 ## Tools and Practices
 -  Tool: MySQL  
-- [LeetCode SQL Practices](https://github.com/sxnbx/SQL_LeetCode_Challenges.git): I'm solving algorithm problems on LeetCode to improve my problem-solving skills and understanding of data structures.
+- [LeetCode SQL Practices](./SQL%20LeetCode%20Challenges/): I'm solving algorithm problems on LeetCode to improve my problem-solving skills and understanding of data structures.
