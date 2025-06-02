@@ -1,4 +1,4 @@
-# 🔍 SQL Notes: Logical Operators (`AND`, `OR`, `NOT`)
+# 🌱 SQL Notes: Logical Operators (`AND`, `OR`, `NOT`)
 
 Logical operators in SQL allow you to **filter data more precisely** by combining multiple conditions in the `WHERE` clause.
 
