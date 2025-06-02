@@ -1,4 +1,4 @@
-# 📘 SQL Notes: Comparison Operators
+# 🌱 SQL Notes: Comparison Operators
 
 Comparison operators in SQL are used in the `WHERE` clause to **filter data** based on a condition. They compare one value to another and return rows that match the criteria. Think of them as tools that help answer questions like:
 
