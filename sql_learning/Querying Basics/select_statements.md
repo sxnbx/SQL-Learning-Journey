@@ -1,4 +1,4 @@
-# 🧠 SQL Notes: SELECT Statements — Basics and Examples
+# 🌱 SQL Notes: SELECT Statements — Basics and Examples
 
 ---
 
