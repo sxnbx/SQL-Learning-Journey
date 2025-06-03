@@ -1,6 +1,8 @@
 # 🌱 SQL: Aliasing
 Aliasing lets you rename columns or tables in SQL query outputs without changing the original database structure. It improves readability, makes expressions more understandable, and helps shorten long table names.
 
+---
+
 ### Column Aliasing
 Change the name of a column in your output, especially useful for:
 - Making results easier to read
