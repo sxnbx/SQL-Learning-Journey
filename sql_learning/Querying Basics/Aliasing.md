@@ -38,6 +38,8 @@ FROM products p;
 ```
 This is extremely helpful in JOIN queries or when referencing the same table multiple times.
 
+---
+
 ## Summary
 - Use AS to rename columns or tables temporarily
 - Great for improving output readability or labeling computed columns
