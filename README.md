@@ -10,8 +10,8 @@ This repository is organized into core SQL topics, each containing practical scr
 ### 📌 Querying Basics
 
 - **[SELECT Statements](https://github.com/sxnbx/SQL-Learning-Journey/blob/74ab83776999e9f01390121d1f3e3524c5e51c04/sql_learning/Querying%20Basics/select_statements.md):** How to retrieve data from tables.
-- **[WHERE Clause](sql_learning/WHERE_clause):** Filtering records based on specific conditions.
-- **[Comparison Operators](sql_learning/comparison_operators):**
+- **[WHERE Clause]([sql_learning/WHERE_clause](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/WHERE_clause.md)):** Filtering records based on specific conditions.
+- **[Comparison Operators]([sql_learning/comparison_operators](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/comparison_operators.md)):**
   - `=` (Equals)
   - `<>` (Not equal)
   - `<` (Less than)
@@ -20,8 +20,13 @@ This repository is organized into core SQL topics, each containing practical scr
   - `!>` (Not greater than) *(if applicable)*
   - `<=` (Less than or equal to)
   - `>=` (Greater than or equal to)
-- **[Logical Operations](sql_learning/logical_operators):** Using `AND`, `OR`, and `NOT` in queries.
-- **[IN Operator](sql_learning/in_operator):** Checking if a value matches any value in a list.
+- **[Logical Operations](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/logical_operators.md):** Using `AND`, `OR`, and `NOT` in queries.
+- **[IN Operator]([sql_learning/in_operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/IN_operator.md)):** Checking if a value matches any value in a list.
+- **[Between Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Between_Operator.md)**
+- **[Like Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/LIKE_Operator.md)**
+- **[Order By Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Order_By_Operator.md)**
+- **[Limit](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/LIMIT_Clause.md)**
+- **[Aliasing](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Aliasing.md)**
 
 ### 📌 Data Types and Functions *(coming soon)*
 
