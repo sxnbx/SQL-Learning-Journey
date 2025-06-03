@@ -22,19 +22,13 @@ This repository is organized into core SQL topics, each containing practical scr
   - `>=` (Greater than or equal to)
 - **[Logical Operations](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/logical_operators.md):** Using `AND`, `OR`, and `NOT` in queries.
 - **[IN Operator]([sql_learning/in_operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/IN_operator.md)):** Checking if a value matches any value in a list.
-- **[Between Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Between_Operator.md)**
-- **[Like Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/LIKE_Operator.md)**
-- **[Order By Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Order_By_Operator.md)**
-- **[Limit](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/LIMIT_Clause.md)**
-- **[Aliasing](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Aliasing.md)**
+- **[Between Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Between_Operator.md)** Filter results within a specific numeric or date range, including the boundary values.
+- **[Like Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/LIKE_Operator.md)** Perform pattern matching on string values using `%` and `_` wildcards.
+- **[Order By Operator](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Order_By_Operator.md)** Sort your results by one or more columns in ascending (`ASC`) or descending (`DESC`) order.
+- **[Limit](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/LIMIT_Clause.md)* *Restrict the number of records returned.
+- **[Aliasing](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Aliasing.md)** Rename columns or tables in your queries using `AS` to improve readability and clarity.
 
 ### 📌 Data Types and Functions *(coming soon)*
-
-- Data types: INT, VARCHAR, DATE, etc.
-- Type conversions
-- String functions: `CONCAT()`, `SUBSTRING()`, `LENGTH()`
-- Numeric functions: `ROUND()`, `FLOOR()`, `CEIL()`
-- Date functions: `NOW()`, `DATEDIFF()`, `DATE_FORMAT()`
 
 
 ## Tools and Practices
