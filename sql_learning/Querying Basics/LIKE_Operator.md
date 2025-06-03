@@ -2,7 +2,7 @@
 
 The LIKE operator is used in the WHERE clause to filter rows that match a given pattern. It works with wildcards and is commonly used with text columns like names, emails, or phone numbers.
 
-## Reference
+## Reference 
 | Symbol | Meaning                       |
 | ------ | ----------------------------- |
 | `%`    | Zero, one, or many characters |
