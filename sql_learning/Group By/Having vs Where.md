@@ -67,12 +67,24 @@ ORDER BY total;
 - Then, only keep customers who spent more than $40.
 - ORDER BY total arranges the results from smallest to largest total spending (among those who passed the filter).
 
----
-
-## Why This Matters
+### Why This Matters
 | Task                                          | Use      | Why?                                 |
 | --------------------------------------------- | -------- | ------------------------------------ |
 | Filter orders placed in the year 2024         | `WHERE`  | You’re filtering **raw row data**    |
 | Only show customers who tipped more than \$10 | `HAVING` | You’re filtering **after grouping**  |
 | Filter out orders with status = 'cancelled'   | `WHERE`  | Filtering **before any aggregation** |
 | Only show products with total sales > \$1000  | `HAVING` | Filtering **after `SUM()`**          |
+
+---
+
+## Summary
+| Use This... | When You Want to...                        |
+| ----------- | ------------------------------------------ |
+| `WHERE`     | Filter rows **before** grouping (raw data) |
+| `HAVING`    | Filter rows **after** aggregation          |
+
+
+## Real World Examples
+- Show only customers who spent more than $100 (HAVING)
+- Filter out canceled orders (WHERE)
+- Identify users who submitted more than 3 feedback entries (HAVING COUNT())
