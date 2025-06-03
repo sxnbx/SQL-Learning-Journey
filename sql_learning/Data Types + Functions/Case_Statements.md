@@ -1,5 +1,6 @@
-# SQL: CAST and CONVERT Functions
-SQL lets you convert data from one type to another using CAST() and CONVERT(). These are helpful when working with mismatched or inconsistent data types—especially in reporting, filtering, or joining tables.
+# SQL: `CAST` and `CONVERT` Functions
+
+SQL lets you convert data from one type to another using `CAST()` and `CONVERT()`. These are helpful when working with mismatched or inconsistent data types—especially in reporting, filtering, or joining tables.
 
 ---
 
