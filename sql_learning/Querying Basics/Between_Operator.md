@@ -1,4 +1,4 @@
-# 📌 SQL `BETWEEN` Operator – Study Notes
+# 🌱 SQL `BETWEEN` Operator – Study Notes
 
 This will cover the `BETWEEN` operator in SQL, which is super helpful when you want to filter values within a range without having to write long `>= AND <=` conditions.
 
