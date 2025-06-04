@@ -1,4 +1,4 @@
-# 🔗 INNER JOIN
+# 🔗 SQL: INNER JOIN
 An INNER JOIN returns only the rows that have matching values in both tables. This is the most commonly used type of join in SQL and is especially useful when combining data across tables with related keys.
 
 ## Basic Syntax
