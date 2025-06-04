@@ -6,7 +6,7 @@ Joins are one of the most powerful tools in SQL, especially in real-world data a
 A JOIN is used to combine rows from two or more tables based on a related column (usually a primary and foreign key relationship).
 
 Common types of joins:
-- [INNER JOIN] (https://github.com/sxnbx/SQL-Learning-Journey/blob/e851f1b4549525e464834980f196cf430193c2cc/sql_learning/Joins/Inner%20Joins.md)
+- [INNER JOIN] (sql_learning/Joins/Inner Joins.md)
 - LEFT JOIN / RIGHT JOIN
 - FULL OUTER JOIN
 - SELF JOIN
