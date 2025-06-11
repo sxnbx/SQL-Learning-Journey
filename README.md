@@ -25,4 +25,4 @@ This repository is organized into core SQL topics, each containing practical scr
 
 ## Tools and Practices
 -  Tool: MySQL  
-- [LeetCode SQL Practices](./SQL%20LeetCode%20Challenges/): I'm solving algorithm problems on LeetCode to improve my problem-solving skills and understanding of data structures.
+- [SQL Practices]([./SQL%20LeetCode%20Challenges/](https://github.com/sxnbx/SQL-Learning-Journey/tree/ec74f5e20784d91f982aa0d19032fdbdd2925fc9/sql_practice)): I'm solving algorithm problems on LeetCode and other sites to improve my problem-solving skills and understanding of data structures.
