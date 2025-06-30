@@ -21,6 +21,54 @@ This repository is organized into core SQL topics, each containing practical scr
 - **[Aliasing](https://github.com/sxnbx/SQL-Learning-Journey/blob/d1dcc25b2422d8b88548f4609a7bda4e6bc381b4/sql_learning/Querying%20Basics/Aliasing.md)** Rename columns or tables in your queries using `AS` to improve readability and clarity.
 
 ### 📌 Data Types and Functions *(coming soon)*
+- Numeric Data Types
+- String Functions
+- Date Format Functions
+- IF Functions
+- Case Statement
+- Cast and Convert Functions
+
+### Group By
+- Group By Basics
+- Aggregate Functions
+- Having vs Where
+- Rollup
+
+### Joins
+- Inner Joins
+- Joining Multiple Tables
+- Joining on Multiple Conditions
+- Outer Joins
+- Self Joins
+- Cross Joins
+- Natural Join
+- USING Keyword
+- Unions
+- Join Use Cases
+
+### Subqueries
+- Subquery Basics
+- ANY and ALL Operators
+- Exists
+- Subqueries in Select and From
+
+### Window Functions
+- Window Functions Basics - OVER + Partition By
+- Row Number
+- Rank and Dense Rank
+- Lag and Lead
+
+### Regular Expression
+- Regular Expression Methods
+- Regular Expression Metacharacters
+- Regular Expression Examples and Use Cases
+
+### Data Cleaning
+- Removing Duplicates
+- Standardize Data
+- Break One Column into Multiple Columns
+- Working with Null Values
+- Deleting Columns
 
 
 ## Tools and Practices
